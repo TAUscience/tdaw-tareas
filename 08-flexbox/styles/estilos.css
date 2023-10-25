@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+header{
+    width: auto;
+    background-color: rgb(92, 171, 218);
+    color: white;
+    display: flex;
+    justify-content: left;
+    padding: 0.5rem 0;
+}
+header ul{
+    font-size: .9rem;
+    width: 30vw;
+    min-width: 12rem;
+    max-width: 18rem;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header>a{
+    min-width: 14rem;
+    width: 20vw;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 5%;
+}
+#box{
+    display: flex;
+    justify-content: space-between;
+}
+#railLeft{
+    width: 20%;
+    overflow-x: scroll;
+}
+.alertLeft{
+    background-color: rgb(230, 230, 230);
+    color: rgb(100, 100, 100);
+    padding: 1vh 1vw;
+}
+.great{
+    width: 100%;
+    background-color: rgb(230, 230, 255);
+    margin-top: 5vh;
+    padding: 1vh 1vw;
+}
+.great ul{
+    list-style: none;
+}
+.great h3{
+    background-color: rgb(166, 203, 214);
+    padding: 1vh 1vw;
+}
+#recentMessageList{
+    background-color: white;
+}
+#recentMessageList li{
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    margin-top: 1vh;
+}
+#recentMessageList li img{
+    margin-right: 1rem;
+    float: left;
+}
+
+aside{
+    width: 25%;
+    overflow-x: scroll;
+}
+#chList{
+    background-color: white;
+}#chList li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chNumber{
+    padding-left: 1vw;
+    font-size: 1.8rem;
+    color: rgb(100, 100, 100);
+    width: 20%;
+}
+#chList li p{
+    width: 70%;
+}
+#sellList{
+    background-color: white;
+}
+#sellList li{
+    display: flex;
+    margin-top: 1vh;
+    padding: 1vh 0;
+    align-items: center;
+}
+#sellList li img{
+    float: left;
+}
+
+#middle{
+    width: 50%;
+    margin: 0.5rem;
+    overflow-x: scroll;
+}
+#middle h2{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+#datosFactura{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+#datosFactura h4{
+    margin: 0.5rem 0;
+}
+.oculto{
+    color: white;
+}
+tr{
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto repeat(4,1fr);
+    align-items: center;
+}
+.SendButton{
+    display: block;
+    background-color: rgb(92, 171, 218);
+    padding: 0.2rem;
+    width: 20%;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: white;
+}
